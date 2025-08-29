@@ -1,0 +1,7 @@
+node_modules
+.evershop
+.log
+media
+config
+dist
+/public

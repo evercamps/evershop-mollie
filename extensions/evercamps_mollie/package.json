@@ -1,0 +1,14 @@
+{
+  "name": "@evercamps/mollie",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "@mollie/api-client": "^4.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
