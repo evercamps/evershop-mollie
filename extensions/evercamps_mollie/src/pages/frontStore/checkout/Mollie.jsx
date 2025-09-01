@@ -1,11 +1,9 @@
 import { useCheckout, useCheckoutDispatch } from '@components/common/context/checkout';
-import MollieLogo from '@components/frontStore/mollie/MollieLogo.jsx';
-import CheckoutForm from '@components/frontStore/mollie/checkout/CheckoutForm';
+import MollieLogo from '../../../components/frontStore/MollieLogo.jsx';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import smallUnit from 'zero-decimal-currencies';
 import RenderIfTrue from '@components/common/RenderIfTrue';
-import { _ } from '../../../../../lib/locale/translate/_.js';
 
 export function Mollie({ createPaymentApi, orderId, orderPlaced }) {
   const [error, setError] = useState('');
@@ -39,7 +37,7 @@ export function Mollie({ createPaymentApi, orderId, orderPlaced }) {
     <div>
       {error && <div className="text-critical mb-4">{error}</div>}
       <div className="p-8 text-center border rounded mt-4 border-divider">
-        {_('You will be redirected to Mollie')}
+        You will be redirected to Mollie
       </div>
     </div>
   );

@@ -2,6 +2,7 @@
   "name": "evercamps_mollie",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "evershop dev",
     "setup": "evershop install",
@@ -9,7 +10,8 @@
     "start": "evershop start",
     "start:debug": "evershop start --debug",
     "user:create": "evershop user:create",
-    "user:changePassword": "evershop user:changePassword"
+    "user:changePassword": "evershop user:changePassword",
+    "compile": "tsc --project ./extensions/evercamps_mollie/tsconfig.json"
   },
    "workspaces": [
     "extensions/*"

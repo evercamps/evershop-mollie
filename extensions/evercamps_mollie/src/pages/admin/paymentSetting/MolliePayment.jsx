@@ -43,7 +43,7 @@ export default function MolliePayment({
       <Card.Session>
         <div className="grid grid-cols-3 gap-8">
           <div className="col-span-1 items-center flex">
-            <h4>Active Live Mode?</h4>
+            <h4>Activate Live Mode?</h4>
           </div>
           <div className="col-span-2">
             <Toggle name="molliePaymentMode" value={molliePaymentMode} />
@@ -61,7 +61,6 @@ export default function MolliePayment({
               name="mollieLiveApiKey"
               placeholder="live api Key"
               value={mollieLiveApiKey}
-              instruction="Your webhook url should be: https://yourdomain.com/api/mollie/webhook"
             />
           </div>
         </div>
