@@ -1,7 +1,12 @@
 {
-  "name": "@evercamps/mollie",
+  "name": "@evercamps/evershop_mollie",
   "version": "1.0.0",
   "type": "module",
+  "files": ["dist"],
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/evercamps/evershop_mollie.git"
+  },
   "scripts": {
     "compile": "tsc --project tsconfig.json"
   },

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "type": "module",
+
   "scripts": {
     "dev": "evershop dev",
     "setup": "evershop install",
@@ -13,7 +14,7 @@
     "user:changePassword": "evershop user:changePassword",
     "compile": "tsc --project ./extensions/evercamps_mollie/tsconfig.json"
   },
-   "workspaces": [
+  "workspaces": [
     "extensions/*"
   ],
   "keywords": [],
