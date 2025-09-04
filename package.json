@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "main": "index.js",
   "type": "module",
-
   "scripts": {
     "dev": "evershop dev",
     "setup": "evershop install",
@@ -22,6 +21,7 @@
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "description": "",
   "dependencies": {
+    "@evercamps/evershop_mollie": "^0.0.2",
     "@evershop/evershop": "^2.0.1"
   }
 }

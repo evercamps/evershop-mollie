@@ -33,6 +33,3 @@ As the extension needs to know your domain name, also add the homeUrl to the con
     }
 }
 ```
-
-
-

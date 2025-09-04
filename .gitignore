@@ -1,6 +1,7 @@
 node_modules
 .evershop
 .log
+.env
 media
 config
 dist
