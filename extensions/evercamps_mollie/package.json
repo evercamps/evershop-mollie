@@ -1,6 +1,6 @@
 {
   "name": "@evercamps/evershop-mollie",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "type": "module",
   "files": [
     "dist",
@@ -18,5 +18,7 @@
   },
   "devDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "license": "GNU GENERAL PUBLIC LICENSE 3.0",
+  "description": "Mollie Payment extension for EverShop"
 }
